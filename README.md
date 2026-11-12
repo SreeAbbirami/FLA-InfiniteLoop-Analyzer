@@ -1,15 +1,7 @@
-# FLA-InfiniteLoop-Analyzer
-
 <h1 align="center">InfiniteLoop Analyzer</h1>
 
 <p align="center">
   <i>Static analyzer for Python code focused on infinite-loop and anti-pattern detection using declarative AST analysis.</i>
-</p>
-
-<p align="center">
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python 3.x"></a>
-  <a href="https://www.swi-prolog.org/"><img src="https://img.shields.io/badge/SWI--Prolog-9.x-orange?logo=prolog" alt="SWI-Prolog"></a>
-  <img src="https://img.shields.io/badge/License-Academic-green" alt="Academic License">
 </p>
 
 <p align="center">
@@ -213,9 +205,3 @@ The test suite includes **76 tests** covering:
 
 
 ---
-
-**Built for LINFO2335 - Programming Paradigms @ UCLouvain** (Université catholique de Louvain).
-
-*Leveraging declarative programming for smarter code analysis*
-
-</div>
