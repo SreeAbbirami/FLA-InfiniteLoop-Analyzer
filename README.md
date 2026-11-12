@@ -214,26 +214,6 @@ The test suite includes **76 tests** covering:
 
 ---
 
-## Author
-
-<div align="center">
-
-<table>
-  <tr>
-    <td width="180" align="left">
-      <img src="https://img.shields.io/badge/GitHub-mathisdelsart-black?logo=github" valign="middle"/>
-    </td>
-    <td align="left">
-      <strong>Mathis DELSART</strong>
-    </td>
-  </tr>
-</table>
-
-</div>
-
-
-<div align="center">
-
 **Built for LINFO2335 - Programming Paradigms @ UCLouvain** (Université catholique de Louvain).
 
 *Leveraging declarative programming for smarter code analysis*
