@@ -231,11 +231,6 @@ The test suite includes **76 tests** covering:
 
 </div>
 
-## License
-
-This project is developed for academic purposes as part of university coursework.
-
----
 
 <div align="center">
 
