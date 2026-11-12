@@ -1,0 +1,470 @@
+{
+  "_type": "Module",
+  "body": [
+    {
+      "_type": "ClassDef",
+      "bases": [],
+      "body": [
+        {
+          "_type": "FunctionDef",
+          "args": {
+            "_type": "arguments",
+            "args": [
+              {
+                "_type": "arg",
+                "annotation": null,
+                "arg": "self",
+                "col_offset": 17,
+                "lineno": 2
+              }
+            ],
+            "defaults": [],
+            "kw_defaults": [],
+            "kwarg": null,
+            "kwonlyargs": [],
+            "vararg": null
+          },
+          "body": [
+            {
+              "_type": "Assign",
+              "col_offset": 8,
+              "lineno": 3,
+              "targets": [
+                {
+                  "_type": "Attribute",
+                  "attr": "value",
+                  "col_offset": 8,
+                  "ctx": {
+                    "_type": "Store"
+                  },
+                  "lineno": 3,
+                  "value": {
+                    "_type": "Name",
+                    "col_offset": 8,
+                    "ctx": {
+                      "_type": "Load"
+                    },
+                    "id": "self",
+                    "lineno": 3
+                  }
+                }
+              ],
+              "value": {
+                "_type": "Num",
+                "col_offset": 21,
+                "lineno": 3,
+                "n": 42
+              }
+            },
+            {
+              "_type": "Return",
+              "col_offset": 8,
+              "lineno": 4,
+              "value": {
+                "_type": "Name",
+                "col_offset": 15,
+                "ctx": {
+                  "_type": "Load"
+                },
+                "id": "self",
+                "lineno": 4
+              }
+            }
+          ],
+          "col_offset": 4,
+          "decorator_list": [],
+          "lineno": 2,
+          "name": "__init__",
+          "returns": null
+        }
+      ],
+      "col_offset": 0,
+      "decorator_list": [],
+      "keywords": [],
+      "lineno": 1,
+      "name": "BadClass1"
+    },
+    {
+      "_type": "ClassDef",
+      "bases": [],
+      "body": [
+        {
+          "_type": "FunctionDef",
+          "args": {
+            "_type": "arguments",
+            "args": [
+              {
+                "_type": "arg",
+                "annotation": null,
+                "arg": "self",
+                "col_offset": 17,
+                "lineno": 7
+              }
+            ],
+            "defaults": [],
+            "kw_defaults": [],
+            "kwarg": null,
+            "kwonlyargs": [],
+            "vararg": null
+          },
+          "body": [
+            {
+              "_type": "Assign",
+              "col_offset": 8,
+              "lineno": 8,
+              "targets": [
+                {
+                  "_type": "Attribute",
+                  "attr": "name",
+                  "col_offset": 8,
+                  "ctx": {
+                    "_type": "Store"
+                  },
+                  "lineno": 8,
+                  "value": {
+                    "_type": "Name",
+                    "col_offset": 8,
+                    "ctx": {
+                      "_type": "Load"
+                    },
+                    "id": "self",
+                    "lineno": 8
+                  }
+                }
+              ],
+              "value": {
+                "_type": "Str",
+                "col_offset": 20,
+                "lineno": 8,
+                "s": "Instance"
+              }
+            },
+            {
+              "_type": "Return",
+              "col_offset": 8,
+              "lineno": 9,
+              "value": {
+                "_type": "Call",
+                "args": [],
+                "col_offset": 15,
+                "func": {
+                  "_type": "Name",
+                  "col_offset": 15,
+                  "ctx": {
+                    "_type": "Load"
+                  },
+                  "id": "BadClass2",
+                  "lineno": 9
+                },
+                "keywords": [],
+                "lineno": 9
+              }
+            }
+          ],
+          "col_offset": 4,
+          "decorator_list": [],
+          "lineno": 7,
+          "name": "__init__",
+          "returns": null
+        }
+      ],
+      "col_offset": 0,
+      "decorator_list": [],
+      "keywords": [],
+      "lineno": 6,
+      "name": "BadClass2"
+    },
+    {
+      "_type": "ClassDef",
+      "bases": [],
+      "body": [
+        {
+          "_type": "FunctionDef",
+          "args": {
+            "_type": "arguments",
+            "args": [
+              {
+                "_type": "arg",
+                "annotation": null,
+                "arg": "self",
+                "col_offset": 17,
+                "lineno": 13
+              },
+              {
+                "_type": "arg",
+                "annotation": null,
+                "arg": "value",
+                "col_offset": 23,
+                "lineno": 13
+              }
+            ],
+            "defaults": [],
+            "kw_defaults": [],
+            "kwarg": null,
+            "kwonlyargs": [],
+            "vararg": null
+          },
+          "body": [
+            {
+              "_type": "Assign",
+              "col_offset": 8,
+              "lineno": 14,
+              "targets": [
+                {
+                  "_type": "Attribute",
+                  "attr": "value",
+                  "col_offset": 8,
+                  "ctx": {
+                    "_type": "Store"
+                  },
+                  "lineno": 14,
+                  "value": {
+                    "_type": "Name",
+                    "col_offset": 8,
+                    "ctx": {
+                      "_type": "Load"
+                    },
+                    "id": "self",
+                    "lineno": 14
+                  }
+                }
+              ],
+              "value": {
+                "_type": "Name",
+                "col_offset": 21,
+                "ctx": {
+                  "_type": "Load"
+                },
+                "id": "value",
+                "lineno": 14
+              }
+            },
+            {
+              "_type": "If",
+              "body": [
+                {
+                  "_type": "Return",
+                  "col_offset": 12,
+                  "lineno": 16,
+                  "value": {
+                    "_type": "Name",
+                    "col_offset": 19,
+                    "ctx": {
+                      "_type": "Load"
+                    },
+                    "id": "self",
+                    "lineno": 16
+                  }
+                }
+              ],
+              "col_offset": 8,
+              "lineno": 15,
+              "orelse": [
+                {
+                  "_type": "Return",
+                  "col_offset": 12,
+                  "lineno": 18,
+                  "value": {
+                    "_type": "Call",
+                    "args": [
+                      {
+                        "_type": "Num",
+                        "col_offset": 29,
+                        "lineno": 18,
+                        "n": 10
+                      }
+                    ],
+                    "col_offset": 19,
+                    "func": {
+                      "_type": "Name",
+                      "col_offset": 19,
+                      "ctx": {
+                        "_type": "Load"
+                      },
+                      "id": "BadClass3",
+                      "lineno": 18
+                    },
+                    "keywords": [],
+                    "lineno": 18
+                  }
+                }
+              ],
+              "test": {
+                "_type": "Compare",
+                "col_offset": 11,
+                "comparators": [
+                  {
+                    "_type": "Num",
+                    "col_offset": 19,
+                    "lineno": 15,
+                    "n": 0
+                  }
+                ],
+                "left": {
+                  "_type": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "_type": "Load"
+                  },
+                  "id": "value",
+                  "lineno": 15
+                },
+                "lineno": 15,
+                "ops": [
+                  {
+                    "_type": "Gt"
+                  }
+                ]
+              }
+            }
+          ],
+          "col_offset": 4,
+          "decorator_list": [],
+          "lineno": 13,
+          "name": "__init__",
+          "returns": null
+        }
+      ],
+      "col_offset": 0,
+      "decorator_list": [],
+      "keywords": [],
+      "lineno": 12,
+      "name": "BadClass3"
+    },
+    {
+      "_type": "ClassDef",
+      "bases": [],
+      "body": [
+        {
+          "_type": "FunctionDef",
+          "args": {
+            "_type": "arguments",
+            "args": [
+              {
+                "_type": "arg",
+                "annotation": null,
+                "arg": "self",
+                "col_offset": 17,
+                "lineno": 22
+              },
+              {
+                "_type": "arg",
+                "annotation": null,
+                "arg": "parent",
+                "col_offset": 23,
+                "lineno": 22
+              }
+            ],
+            "defaults": [
+              {
+                "_type": "NameConstant",
+                "col_offset": 30,
+                "lineno": 22,
+                "value": null
+              }
+            ],
+            "kw_defaults": [],
+            "kwarg": null,
+            "kwonlyargs": [],
+            "vararg": null
+          },
+          "body": [
+            {
+              "_type": "Assign",
+              "col_offset": 8,
+              "lineno": 23,
+              "targets": [
+                {
+                  "_type": "Attribute",
+                  "attr": "parent",
+                  "col_offset": 8,
+                  "ctx": {
+                    "_type": "Store"
+                  },
+                  "lineno": 23,
+                  "value": {
+                    "_type": "Name",
+                    "col_offset": 8,
+                    "ctx": {
+                      "_type": "Load"
+                    },
+                    "id": "self",
+                    "lineno": 23
+                  }
+                }
+              ],
+              "value": {
+                "_type": "Name",
+                "col_offset": 22,
+                "ctx": {
+                  "_type": "Load"
+                },
+                "id": "parent",
+                "lineno": 23
+              }
+            },
+            {
+              "_type": "If",
+              "body": [
+                {
+                  "_type": "Return",
+                  "col_offset": 12,
+                  "lineno": 25,
+                  "value": {
+                    "_type": "Name",
+                    "col_offset": 19,
+                    "ctx": {
+                      "_type": "Load"
+                    },
+                    "id": "self",
+                    "lineno": 25
+                  }
+                }
+              ],
+              "col_offset": 8,
+              "lineno": 24,
+              "orelse": [],
+              "test": {
+                "_type": "Compare",
+                "col_offset": 11,
+                "comparators": [
+                  {
+                    "_type": "NameConstant",
+                    "col_offset": 21,
+                    "lineno": 24,
+                    "value": null
+                  }
+                ],
+                "left": {
+                  "_type": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "_type": "Load"
+                  },
+                  "id": "parent",
+                  "lineno": 24
+                },
+                "lineno": 24,
+                "ops": [
+                  {
+                    "_type": "Is"
+                  }
+                ]
+              }
+            }
+          ],
+          "col_offset": 4,
+          "decorator_list": [],
+          "lineno": 22,
+          "name": "__init__",
+          "returns": null
+        }
+      ],
+      "col_offset": 0,
+      "decorator_list": [],
+      "keywords": [],
+      "lineno": 21,
+      "name": "BadClass4"
+    }
+  ]
+}

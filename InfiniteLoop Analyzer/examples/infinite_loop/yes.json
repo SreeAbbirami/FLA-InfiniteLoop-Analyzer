@@ -1,0 +1,785 @@
+{
+  "_type": "Module",
+  "body": [
+    {
+      "_type": "FunctionDef",
+      "args": {
+        "_type": "arguments",
+        "args": [],
+        "defaults": [],
+        "kw_defaults": [],
+        "kwarg": null,
+        "kwonlyargs": [],
+        "posonlyargs": [],
+        "vararg": null
+      },
+      "body": [
+        {
+          "_type": "Assign",
+          "col_offset": 4,
+          "end_col_offset": 23,
+          "end_lineno": 2,
+          "lineno": 2,
+          "targets": [
+            {
+              "_type": "Name",
+              "col_offset": 4,
+              "ctx": {
+                "_type": "Store"
+              },
+              "end_col_offset": 16,
+              "end_lineno": 2,
+              "id": "booleanValue",
+              "lineno": 2
+            }
+          ],
+          "type_comment": null,
+          "value": {
+            "_type": "Constant",
+            "col_offset": 19,
+            "end_col_offset": 23,
+            "end_lineno": 2,
+            "kind": null,
+            "lineno": 2,
+            "n": true,
+            "s": true,
+            "value": true
+          }
+        },
+        {
+          "_type": "Assign",
+          "col_offset": 4,
+          "end_col_offset": 20,
+          "end_lineno": 3,
+          "lineno": 3,
+          "targets": [
+            {
+              "_type": "Name",
+              "col_offset": 4,
+              "ctx": {
+                "_type": "Store"
+              },
+              "end_col_offset": 13,
+              "end_lineno": 3,
+              "id": "otherBool",
+              "lineno": 3
+            }
+          ],
+          "type_comment": null,
+          "value": {
+            "_type": "Constant",
+            "col_offset": 16,
+            "end_col_offset": 20,
+            "end_lineno": 3,
+            "kind": null,
+            "lineno": 3,
+            "n": true,
+            "s": true,
+            "value": true
+          }
+        },
+        {
+          "_type": "Assign",
+          "col_offset": 4,
+          "end_col_offset": 9,
+          "end_lineno": 4,
+          "lineno": 4,
+          "targets": [
+            {
+              "_type": "Name",
+              "col_offset": 4,
+              "ctx": {
+                "_type": "Store"
+              },
+              "end_col_offset": 5,
+              "end_lineno": 4,
+              "id": "i",
+              "lineno": 4
+            }
+          ],
+          "type_comment": null,
+          "value": {
+            "_type": "Constant",
+            "col_offset": 8,
+            "end_col_offset": 9,
+            "end_lineno": 4,
+            "kind": null,
+            "lineno": 4,
+            "n": 0,
+            "s": 0,
+            "value": 0
+          }
+        },
+        {
+          "_type": "Assign",
+          "col_offset": 4,
+          "end_col_offset": 10,
+          "end_lineno": 5,
+          "lineno": 5,
+          "targets": [
+            {
+              "_type": "Name",
+              "col_offset": 4,
+              "ctx": {
+                "_type": "Store"
+              },
+              "end_col_offset": 5,
+              "end_lineno": 5,
+              "id": "j",
+              "lineno": 5
+            }
+          ],
+          "type_comment": null,
+          "value": {
+            "_type": "Constant",
+            "col_offset": 8,
+            "end_col_offset": 10,
+            "end_lineno": 5,
+            "kind": null,
+            "lineno": 5,
+            "n": 10,
+            "s": 10,
+            "value": 10
+          }
+        },
+        {
+          "_type": "While",
+          "body": [
+            {
+              "_type": "AugAssign",
+              "col_offset": 8,
+              "end_col_offset": 14,
+              "end_lineno": 7,
+              "lineno": 7,
+              "op": {
+                "_type": "Add"
+              },
+              "target": {
+                "_type": "Name",
+                "col_offset": 8,
+                "ctx": {
+                  "_type": "Store"
+                },
+                "end_col_offset": 9,
+                "end_lineno": 7,
+                "id": "i",
+                "lineno": 7
+              },
+              "value": {
+                "_type": "Constant",
+                "col_offset": 13,
+                "end_col_offset": 14,
+                "end_lineno": 7,
+                "kind": null,
+                "lineno": 7,
+                "n": 1,
+                "s": 1,
+                "value": 1
+              }
+            },
+            {
+              "_type": "If",
+              "body": [
+                {
+                  "_type": "Assign",
+                  "col_offset": 12,
+                  "end_col_offset": 36,
+                  "end_lineno": 9,
+                  "lineno": 9,
+                  "targets": [
+                    {
+                      "_type": "Name",
+                      "col_offset": 12,
+                      "ctx": {
+                        "_type": "Store"
+                      },
+                      "end_col_offset": 24,
+                      "end_lineno": 9,
+                      "id": "booleanValue",
+                      "lineno": 9
+                    }
+                  ],
+                  "type_comment": null,
+                  "value": {
+                    "_type": "Name",
+                    "col_offset": 27,
+                    "ctx": {
+                      "_type": "Load"
+                    },
+                    "end_col_offset": 36,
+                    "end_lineno": 9,
+                    "id": "otherBool",
+                    "lineno": 9
+                  }
+                }
+              ],
+              "col_offset": 8,
+              "end_col_offset": 36,
+              "end_lineno": 9,
+              "lineno": 8,
+              "orelse": [],
+              "test": {
+                "_type": "Compare",
+                "col_offset": 11,
+                "comparators": [
+                  {
+                    "_type": "Name",
+                    "col_offset": 16,
+                    "ctx": {
+                      "_type": "Load"
+                    },
+                    "end_col_offset": 17,
+                    "end_lineno": 8,
+                    "id": "i",
+                    "lineno": 8
+                  }
+                ],
+                "end_col_offset": 17,
+                "end_lineno": 8,
+                "left": {
+                  "_type": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "_type": "Load"
+                  },
+                  "end_col_offset": 12,
+                  "end_lineno": 8,
+                  "id": "j",
+                  "lineno": 8
+                },
+                "lineno": 8,
+                "ops": [
+                  {
+                    "_type": "Eq"
+                  }
+                ]
+              }
+            }
+          ],
+          "col_offset": 4,
+          "end_col_offset": 36,
+          "end_lineno": 9,
+          "lineno": 6,
+          "orelse": [],
+          "test": {
+            "_type": "Name",
+            "col_offset": 10,
+            "ctx": {
+              "_type": "Load"
+            },
+            "end_col_offset": 22,
+            "end_lineno": 6,
+            "id": "booleanValue",
+            "lineno": 6
+          }
+        },
+        {
+          "_type": "Return",
+          "col_offset": 4,
+          "end_col_offset": 23,
+          "end_lineno": 11,
+          "lineno": 11,
+          "value": {
+            "_type": "Name",
+            "col_offset": 11,
+            "ctx": {
+              "_type": "Load"
+            },
+            "end_col_offset": 23,
+            "end_lineno": 11,
+            "id": "booleanValue",
+            "lineno": 11
+          }
+        }
+      ],
+      "col_offset": 0,
+      "decorator_list": [],
+      "end_col_offset": 23,
+      "end_lineno": 11,
+      "lineno": 1,
+      "name": "function_bad_1",
+      "returns": null,
+      "type_comment": null
+    },
+    {
+      "_type": "FunctionDef",
+      "args": {
+        "_type": "arguments",
+        "args": [],
+        "defaults": [],
+        "kw_defaults": [],
+        "kwarg": null,
+        "kwonlyargs": [],
+        "posonlyargs": [],
+        "vararg": null
+      },
+      "body": [
+        {
+          "_type": "Assign",
+          "col_offset": 4,
+          "end_col_offset": 9,
+          "end_lineno": 14,
+          "lineno": 14,
+          "targets": [
+            {
+              "_type": "Name",
+              "col_offset": 4,
+              "ctx": {
+                "_type": "Store"
+              },
+              "end_col_offset": 5,
+              "end_lineno": 14,
+              "id": "i",
+              "lineno": 14
+            }
+          ],
+          "type_comment": null,
+          "value": {
+            "_type": "Constant",
+            "col_offset": 8,
+            "end_col_offset": 9,
+            "end_lineno": 14,
+            "kind": null,
+            "lineno": 14,
+            "n": 0,
+            "s": 0,
+            "value": 0
+          }
+        },
+        {
+          "_type": "Assign",
+          "col_offset": 4,
+          "end_col_offset": 10,
+          "end_lineno": 15,
+          "lineno": 15,
+          "targets": [
+            {
+              "_type": "Name",
+              "col_offset": 4,
+              "ctx": {
+                "_type": "Store"
+              },
+              "end_col_offset": 5,
+              "end_lineno": 15,
+              "id": "j",
+              "lineno": 15
+            }
+          ],
+          "type_comment": null,
+          "value": {
+            "_type": "Constant",
+            "col_offset": 8,
+            "end_col_offset": 10,
+            "end_lineno": 15,
+            "kind": null,
+            "lineno": 15,
+            "n": 10,
+            "s": 10,
+            "value": 10
+          }
+        },
+        {
+          "_type": "While",
+          "body": [
+            {
+              "_type": "AugAssign",
+              "col_offset": 8,
+              "end_col_offset": 14,
+              "end_lineno": 17,
+              "lineno": 17,
+              "op": {
+                "_type": "Add"
+              },
+              "target": {
+                "_type": "Name",
+                "col_offset": 8,
+                "ctx": {
+                  "_type": "Store"
+                },
+                "end_col_offset": 9,
+                "end_lineno": 17,
+                "id": "i",
+                "lineno": 17
+              },
+              "value": {
+                "_type": "Constant",
+                "col_offset": 13,
+                "end_col_offset": 14,
+                "end_lineno": 17,
+                "kind": null,
+                "lineno": 17,
+                "n": 1,
+                "s": 1,
+                "value": 1
+              }
+            },
+            {
+              "_type": "If",
+              "body": [
+                {
+                  "_type": "Assign",
+                  "col_offset": 12,
+                  "end_col_offset": 17,
+                  "end_lineno": 19,
+                  "lineno": 19,
+                  "targets": [
+                    {
+                      "_type": "Name",
+                      "col_offset": 12,
+                      "ctx": {
+                        "_type": "Store"
+                      },
+                      "end_col_offset": 13,
+                      "end_lineno": 19,
+                      "id": "j",
+                      "lineno": 19
+                    }
+                  ],
+                  "type_comment": null,
+                  "value": {
+                    "_type": "Name",
+                    "col_offset": 16,
+                    "ctx": {
+                      "_type": "Load"
+                    },
+                    "end_col_offset": 17,
+                    "end_lineno": 19,
+                    "id": "j",
+                    "lineno": 19
+                  }
+                }
+              ],
+              "col_offset": 8,
+              "end_col_offset": 17,
+              "end_lineno": 19,
+              "lineno": 18,
+              "orelse": [],
+              "test": {
+                "_type": "Compare",
+                "col_offset": 11,
+                "comparators": [
+                  {
+                    "_type": "Name",
+                    "col_offset": 16,
+                    "ctx": {
+                      "_type": "Load"
+                    },
+                    "end_col_offset": 17,
+                    "end_lineno": 18,
+                    "id": "i",
+                    "lineno": 18
+                  }
+                ],
+                "end_col_offset": 17,
+                "end_lineno": 18,
+                "left": {
+                  "_type": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "_type": "Load"
+                  },
+                  "end_col_offset": 12,
+                  "end_lineno": 18,
+                  "id": "j",
+                  "lineno": 18
+                },
+                "lineno": 18,
+                "ops": [
+                  {
+                    "_type": "Eq"
+                  }
+                ]
+              }
+            }
+          ],
+          "col_offset": 4,
+          "end_col_offset": 17,
+          "end_lineno": 19,
+          "lineno": 16,
+          "orelse": [],
+          "test": {
+            "_type": "Compare",
+            "col_offset": 10,
+            "comparators": [
+              {
+                "_type": "Constant",
+                "col_offset": 15,
+                "end_col_offset": 17,
+                "end_lineno": 16,
+                "kind": null,
+                "lineno": 16,
+                "n": 10,
+                "s": 10,
+                "value": 10
+              }
+            ],
+            "end_col_offset": 17,
+            "end_lineno": 16,
+            "left": {
+              "_type": "Name",
+              "col_offset": 10,
+              "ctx": {
+                "_type": "Load"
+              },
+              "end_col_offset": 11,
+              "end_lineno": 16,
+              "id": "j",
+              "lineno": 16
+            },
+            "lineno": 16,
+            "ops": [
+              {
+                "_type": "Eq"
+              }
+            ]
+          }
+        }
+      ],
+      "col_offset": 0,
+      "decorator_list": [],
+      "end_col_offset": 17,
+      "end_lineno": 19,
+      "lineno": 13,
+      "name": "function_bad_2",
+      "returns": null,
+      "type_comment": null
+    },
+    {
+      "_type": "FunctionDef",
+      "args": {
+        "_type": "arguments",
+        "args": [],
+        "defaults": [],
+        "kw_defaults": [],
+        "kwarg": null,
+        "kwonlyargs": [],
+        "posonlyargs": [],
+        "vararg": null
+      },
+      "body": [
+        {
+          "_type": "Assign",
+          "col_offset": 4,
+          "end_col_offset": 9,
+          "end_lineno": 23,
+          "lineno": 23,
+          "targets": [
+            {
+              "_type": "Name",
+              "col_offset": 4,
+              "ctx": {
+                "_type": "Store"
+              },
+              "end_col_offset": 5,
+              "end_lineno": 23,
+              "id": "x",
+              "lineno": 23
+            }
+          ],
+          "type_comment": null,
+          "value": {
+            "_type": "Constant",
+            "col_offset": 8,
+            "end_col_offset": 9,
+            "end_lineno": 23,
+            "kind": null,
+            "lineno": 23,
+            "n": 2,
+            "s": 2,
+            "value": 2
+          }
+        },
+        {
+          "_type": "Assign",
+          "col_offset": 4,
+          "end_col_offset": 9,
+          "end_lineno": 24,
+          "lineno": 24,
+          "targets": [
+            {
+              "_type": "Name",
+              "col_offset": 4,
+              "ctx": {
+                "_type": "Store"
+              },
+              "end_col_offset": 5,
+              "end_lineno": 24,
+              "id": "y",
+              "lineno": 24
+            }
+          ],
+          "type_comment": null,
+          "value": {
+            "_type": "Constant",
+            "col_offset": 8,
+            "end_col_offset": 9,
+            "end_lineno": 24,
+            "kind": null,
+            "lineno": 24,
+            "n": 0,
+            "s": 0,
+            "value": 0
+          }
+        },
+        {
+          "_type": "While",
+          "body": [
+            {
+              "_type": "AugAssign",
+              "col_offset": 8,
+              "end_col_offset": 14,
+              "end_lineno": 26,
+              "lineno": 26,
+              "op": {
+                "_type": "Sub"
+              },
+              "target": {
+                "_type": "Name",
+                "col_offset": 8,
+                "ctx": {
+                  "_type": "Store"
+                },
+                "end_col_offset": 9,
+                "end_lineno": 26,
+                "id": "y",
+                "lineno": 26
+              },
+              "value": {
+                "_type": "Constant",
+                "col_offset": 13,
+                "end_col_offset": 14,
+                "end_lineno": 26,
+                "kind": null,
+                "lineno": 26,
+                "n": 1,
+                "s": 1,
+                "value": 1
+              }
+            }
+          ],
+          "col_offset": 4,
+          "end_col_offset": 14,
+          "end_lineno": 26,
+          "lineno": 25,
+          "orelse": [],
+          "test": {
+            "_type": "Compare",
+            "col_offset": 10,
+            "comparators": [
+              {
+                "_type": "Constant",
+                "col_offset": 15,
+                "end_col_offset": 16,
+                "end_lineno": 25,
+                "kind": null,
+                "lineno": 25,
+                "n": 2,
+                "s": 2,
+                "value": 2
+              }
+            ],
+            "end_col_offset": 16,
+            "end_lineno": 25,
+            "left": {
+              "_type": "Name",
+              "col_offset": 10,
+              "ctx": {
+                "_type": "Load"
+              },
+              "end_col_offset": 11,
+              "end_lineno": 25,
+              "id": "x",
+              "lineno": 25
+            },
+            "lineno": 25,
+            "ops": [
+              {
+                "_type": "Eq"
+              }
+            ]
+          }
+        },
+        {
+          "_type": "Return",
+          "col_offset": 4,
+          "end_col_offset": 12,
+          "end_lineno": 27,
+          "lineno": 27,
+          "value": {
+            "_type": "Name",
+            "col_offset": 11,
+            "ctx": {
+              "_type": "Load"
+            },
+            "end_col_offset": 12,
+            "end_lineno": 27,
+            "id": "x",
+            "lineno": 27
+          }
+        }
+      ],
+      "col_offset": 0,
+      "decorator_list": [],
+      "end_col_offset": 12,
+      "end_lineno": 27,
+      "lineno": 22,
+      "name": "function_bad_3",
+      "returns": null,
+      "type_comment": null
+    },
+    {
+      "_type": "While",
+      "body": [
+        {
+          "_type": "AugAssign",
+          "col_offset": 4,
+          "end_col_offset": 10,
+          "end_lineno": 30,
+          "lineno": 30,
+          "op": {
+            "_type": "Add"
+          },
+          "target": {
+            "_type": "Name",
+            "col_offset": 4,
+            "ctx": {
+              "_type": "Store"
+            },
+            "end_col_offset": 5,
+            "end_lineno": 30,
+            "id": "i",
+            "lineno": 30
+          },
+          "value": {
+            "_type": "Constant",
+            "col_offset": 9,
+            "end_col_offset": 10,
+            "end_lineno": 30,
+            "kind": null,
+            "lineno": 30,
+            "n": 1,
+            "s": 1,
+            "value": 1
+          }
+        }
+      ],
+      "col_offset": 0,
+      "end_col_offset": 10,
+      "end_lineno": 30,
+      "lineno": 29,
+      "orelse": [],
+      "test": {
+        "_type": "Constant",
+        "col_offset": 6,
+        "end_col_offset": 10,
+        "end_lineno": 29,
+        "kind": null,
+        "lineno": 29,
+        "n": true,
+        "s": true,
+        "value": true
+      }
+    }
+  ],
+  "type_ignores": []
+}
